@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vieoport"content="width=device-width",initial-scale="1.0">
+        <link rel="stylesheet" href="portfolio.css"/>
+        <title>
+            MY PORTFOLIO
+        </title>
+    </head>
+    <body>
+
+        <nav>
+        <div class="navbar">
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+        <section id="home">
+            <div class="name">
+                <h1 class="heading">I AM <br> DIWAKAR</h1>
+            </div>
+        </section>
+        </div> 
+        <table>
+            <tr>
+                <td> <img src="myimage.jpg"width="200"height="150">
+            </tr>
+        </table>
+        <section id="about">
+            <h1 class="head">ABOUT</h1>
+            <div id="intro">
+                <p><b>I am diwakar, i am from Gopalganj, Bihar.
+                    I did my 10th and 12th from bihar board. 
+                    i got 63.6% in 10th standard and 75.8% in 12th standard.
+                    currently i am pursuing BCA from SURESH GYAN VIHAR UNIVERSITY.
+                    
+                    I want to be a frontend-developer.
+                    Strongest part in me that i can learn from my atmosphere. That's all.<br>
+                                ..................THANKS..................</b></p> 
+                             </div>
+                            </section>
+                            
+                            <section id ="portfolio">
+                                <h1 class="head">PORTFOLIO</h1>
+                                <div class="choice">
+                                    <h3>My Hobbies</h3>
+                                    <p>i like to listen music of ARIJIT SINGH and<br>
+                                   jessi gill</p>
+                                </div>
+                                <div class="arijit">
+                        
+                                <img src="jessigill.jpg"width="200"height="250">
+                                <img src="https://i.ibb.co/BN3PYjs/arijit.webp"width="200"height="250">
+                                
+                                
+
+                            </audio>
+                    
+                            <script>
+                                var audio= document.getElementById("audio");
+                                var icon= document.getElementById("icon");
+                                icon.onclick= function(){
+                                if(audio.paused){
+                                    audio.play();
+                                    icon.src ="pause.jpg";
+                                }else{
+                                    audio.pause();
+                                    icon.src ="play.jpg";
+                                }
+
+                                }   
+                            </script>
+                          
+                                
+                            </section>
+                            <div id="contact">
+                                <h1 class="head">CONTACT</h1>
+                                </div>
+                            <form>                              
+                                Full Name:<br>
+                                <input type="text" name="full name">
+                                <br>
+                                Email:<br>
+                                <input type="text" name="emailid">
+                                <br>
+                                Contact n.:<br>
+                                <input type="text" name="contact">
+                                <br>
+                                <br>
+                                <input type="submit" value="Submit"<br>
+                                <input type="reset" value="Reset"<br>
+                            </form>
+                           </body>
+</html>

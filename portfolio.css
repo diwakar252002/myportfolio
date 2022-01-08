@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(194, 60, 60);
+    animation-name: example;
+    animation-duration: 5s;
+    
+}
+@keyframes example{
+    0% {background-color: brown;}
+    25% {background-color: yellow;}
+    50% {background-color: pink;}
+    100% {background-color: orange;}
+    30% {background-color: magenta;}
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+ li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        text-decoration: indigo;
+        top: 0;
+ }
+li a:hover{
+    background-color: rosybrown;
+}
+ .name{
+     text-align: left;
+     color: black;
+     text-shadow: 4px 4px 5px yellow;
+     padding-right: 30em;
+ }
+ .heading{
+     font-size: 40px;
+     text-align: center;
+     color: black;
+     text-shadow: 4px 4px 5px yellow;
+     margin-right: 20px;
+     word-spacing: 10px;
+ }
+
+ img{
+     border: 5px solid black;
+     border-radius: 100%;
+     align-items: right;
+ }
+ table,tr,td{
+     margin: 30px 500px 30px 500px;
+ }
+ 
+#intro{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;  
+    padding-left: 10em;
+    padding-right: 15em;  
+}
+
+
+.head{
+    color: black;
+    text-shadow: 3px 3px 5px yellow;
+    background-color: white;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    text-align: center;
+    font-size: 40px;
+}
+#portfolio{
+    font-size: 10px;
+        
+}
+.choice{
+    color: gold;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 12em;
+}
+.arijit{
+    animation: mymove 4s infinite; 
+     position: relative;   
+ }
+ @keyframes mymove{
+from {left:  0px;}
+to {left: 500px;}
+
+}
+.listen_music{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.listen_music img{
+    border: none;
+}
+#icon{
+    border: 10px solid black;
+    margin-left: 10px;
+
+}
+
+
+@keyframes mymove{
+    from {left:  0px;}
+    to {left: 500px;}
+    
+    }
+
+
+
+form{
+    text-align: center;
+    border: 15px double black;
+    background-color: PINK;
+    margin-top: 5em;
+    margin-left: 32em;
+    margin-right: 32em;
+    color: black;
+    position: absolute;
+    
+}
+input{
+    color: blue;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+
+}
+input,textarea{
+    background-color: pink;
+}
+
+ 
